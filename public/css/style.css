@@ -1,0 +1,86 @@
+.tbl-data{
+    width : 100%;
+    border-collapse: collapse;
+}
+.tbl-data th,.tbl-data td,.tbl-data td input{
+    text-align: center;
+}
+.tbl-data th,.tbl-data td{
+    border: 1px solid;
+}
+.tbl-data th{
+    background: #02062b;
+    color: #f2b33f;
+}
+/* .tbl-data td,.tbl-data td input{
+    cursor: pointer;
+} */
+.hidden-input {
+    border:none;
+    /* width:100%; */
+    height:100%;
+    font-family: Verdana, Helvetica, Arial, FreeSans, sans-serif;
+    font-size:12px;
+    padding: 0 4px 0 4px;
+}
+.hidden-input:focus { 
+    /* border:2px solid #5292F7; */
+    outline: none;
+}
+.btn-save{
+    border-radius: 9px;
+    min-width: 100px;
+    padding: 9px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    background: #02062b;
+    color: #f2b33f;
+    cursor: pointer;
+    text-align:center;
+}
+.btn-reset{
+    border-radius: 9px;
+    min-width: 100px;
+    padding: 9px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    background: #8c0107;
+    color: #e6e4de;
+    cursor: pointer;
+    text-align:center;
+}
+.check-box{
+    background-color: initial;
+    cursor: default;
+    -webkit-appearance: checkbox;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+.check-div label{
+    font-family: Verdana, Helvetica, Arial, FreeSans, sans-serif;
+}
+.check-div{
+    margin-top: 40px;
+}
+.btn-add-row{
+    float: left;
+    margin-top: 10px;
+}
+/* page loader */
+.loading-image {
+    position: fixed;
+    top: 50%;
+    right: 45%;
+    z-index: 1;	
+}
+.paste-info{
+    font-size: medium;
+    color: #4c5b64;
+    margin-left: 15px;
+    font-weight: 100;
+    opacity: 0.7;
+}
